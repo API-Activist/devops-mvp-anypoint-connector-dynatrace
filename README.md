@@ -90,6 +90,7 @@ When using the different operations, make sure to use the MIME-Type as **applica
 
 ### Operation specific properties
 Get operations by Id have additional properties to be added.
+
 ![Image of Dynatrace MuleSoft Connector](https://github.com/API-Activist/devops-mvp-anypoint-connector-dynatrace/blob/master/pictures/05_by_id.PNG)
 
 
