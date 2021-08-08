@@ -99,26 +99,27 @@ By default it is a json sent back as string. Therefor it is required to set the 
 
 	{
 	
-		"totalCount": 2,
-		"pageSize": 200,
-		"apiTokens": [
-			{
-				"id": "dt0c01.QA3SFSEW3EWR5ZTOIS7QIE92OI",
-				"name": "API",
-				"enabled": true,
-				"owner": "HANS.PETER@SOMEWHERE.com",
-				"creationDate": "2021-08-08T09:37:53.866Z"
-			},
-			{
-				"id": "dt0c01.ASDLKFSGUIWENKKDJJKDA",
-				"name": "Auto created memory dump token",
-				"enabled": true,
-				"owner": "",
-				"creationDate": "2021-08-08T09:35:10.182Z"
-			}
-		]
+	  "records": [
+	    {
+	      "timestamp": 1537954219052,
+	      "logLevel": "INFO",
+	      "text": "2018/09/26 09:30:19 UTC\tInformation\tClassic\t\t11707\t\tSYSTEM\tInfo\tProduct: Dynatrace Updater -- Installation completed successfully.",
+	      "customFields": {}
+	    },
+	    {
+	      "timestamp": 1537954219052,
+	      "logLevel": "INFO",
+	      "text": "2018/09/26 09:30:19 UTC\tInformation\tClassic\t\t1033\t\tSYSTEM\tInfo\tWindows Installer installed the product. Product Name: Dynatrace Updater. Product Version: 1.156.0. Product Language: 1033. Manufacturer: Dynatrace. Installation success or error status: 0.",
+	      "customFields": {}
+	    },
+	    {
+	      "timestamp": 1537954219052,
+	      "logLevel": "INFO",
+	      "text": "2018/09/26 09:30:19 UTC\tInformation\tClassic\t\t11707\t\tSYSTEM\tInfo\tProduct: Dynatrace Updater -- Installation completed successfully.",
+	      "customFields": {}
+	    }
+	  ]
 	}
-
 	
 ## Flow Example with Dynatrace operations
 ![Image of Dynatrace interaction](https://github.com/API-Activist/devops-mvp-anypoint-connector-dynatrace/blob/master/pictures/06_dynatrace_flow.PNG)
