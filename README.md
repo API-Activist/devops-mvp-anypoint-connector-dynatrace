@@ -56,7 +56,7 @@ After installation is successful, add the following dependency into your anypoin
 
 The current version of this connector is 0.1.3. Once added, save the pom.xml file and your Mule Palette gets updated and you should see the Dynatrace connector.
 
-![Image of Dynatrace MuleSoft Connector](https://github.com/API-Activist/devops-mvp-anypoint-connector-jenkins/blob/master/jenkins-mule-palette.PNG)
+![Image of Dynatrace MuleSoft Connector](https://github.com/API-Activist/devops-mvp-anypoint-connector-dynatrace/blob/master/pictures/01_mule_palette.PNG)
 
 ### Step 4 - Create Dynatrace Configuration
 Before you get started and consume the provided operations, make sure to configure the Dynatrace Connection within Anypoint Studio. 
