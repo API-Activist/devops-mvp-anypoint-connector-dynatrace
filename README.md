@@ -5,7 +5,8 @@ This Dynatrace MVP connector is build as a template for the #MuleSoft #Community
 Use the Dynatrace REST API reference to extend this connector to your needs - [available here](https://www.dynatrace.com/support/help/dynatrace-api/)
 
 In order to further extend this template, it is recommended to use the built-in Interactive API Clients.
-![Dynatrace MVP connector]()
+
+![Dynatrace MVP connector](https://github.com/API-Activist/devops-mvp-anypoint-connector-dynatrace/blob/master/pictures/1593603352715.jpg)
 
 ## Getting started
 This Anypoint Studio MVP (Minimum Viable Product) Connector for Dynatrace has been built for the MuleSoft Community as a template to reuse and if required further extend. 
@@ -41,7 +42,7 @@ This section describes the installation process for this mvp connector in order 
 - Perform "mvn install" 
 - Connector should be installed successfully
 
-![Image of Dynatrace MuleSoft Connector](https://github.com/API-Activist/devops-mvp-anypoint-connector-jenkins/blob/master/cmd%20mvn%20install.PNG)
+![Image of Dynatrace MuleSoft Connector](https://github.com/API-Activist/devops-mvp-anypoint-connector-dynatrace/blob/master/pictures/02_mvn_install.PNG)
 
 ### Step 3 - Adding dependency in Anypoint Studio Project
 After installation is successful, add the following dependency into your anypoint project pom.xml:
@@ -64,12 +65,17 @@ Before you get started and consume the provided operations, make sure to configu
 
 [Learn how to obtain API Token for Dynatrace](https://www.dynatrace.com/support/help/dynatrace-api/basics/dynatrace-api-authentication/#tabgroup-authentication--http-header)
 
-![Image of Dynatrace MuleSoft Connector](https://github.com/API-Activist/devops-mvp-anypoint-connector-jenkins/blob/master/Jenkins-config.PNG)
+![Image of Dynatrace MuleSoft Connector](https://github.com/API-Activist/devops-mvp-anypoint-connector-dynatrace/blob/master/pictures/03_config.PNG)
 
 Now you are all set to use the Dynatrace Operations.
 
 ## Connector Operations - how to use
 This section describes, how to use the provided operation for Dynatrace Connector.
+
+![Image of Dynatrace MuleSoft Connector](https://github.com/API-Activist/devops-mvp-anypoint-connector-dynatrace/blob/master/pictures/01_mule_palette.PNG)
+
+In some cases, resources need to be unclocked before consumption. Go to Dynatrace API settings to unlock the resources.
+![Image of Dynatrace MuleSoft Connector](https://github.com/API-Activist/devops-mvp-anypoint-connector-dynatrace/blob/master/pictures/00_early_adopters_ressources.PNG)
 
 The MVP version of the Dynatrace connectors has only GET operations for different resources as an example. 
 - **Get** or **List** to retrieve data for specific resources
@@ -79,12 +85,12 @@ If you need to enable creation, update or deletion, you have to add it by extend
 **MIME-Type**
 When using the different operations, make sure to use the MIME-Type as **application/json**.
 
-![Image of Dynatrace MuleSoft Connector](https://github.com/API-Activist/devops-mvp-anypoint-connector-jenkins/blob/master/Jenkins-config.PNG)
+![Image of Dynatrace MuleSoft Connector](https://github.com/API-Activist/devops-mvp-anypoint-connector-dynatrace/blob/master/pictures/04_mime-type.PNG)
 
 
 ### Operation specific properties
 Get operations by Id have additional properties to be added.
-![Image of Dynatrace MuleSoft Connector](https://github.com/API-Activist/devops-mvp-anypoint-connector-jenkins/blob/master/Jenkins-config.PNG)
+![Image of Dynatrace MuleSoft Connector](https://github.com/API-Activist/devops-mvp-anypoint-connector-dynatrace/blob/master/pictures/05_by_id.PNG)
 
 
 ### Reponse of operations
@@ -114,13 +120,13 @@ By default it is a json sent back as string. Therefor it is required to set the 
 
 	
 ## Flow Example with Dynatrace operations
-![Image of Dynatrace interaction](https://github.com/API-Activist/devops-mvp-anypoint-connector-Dynatrace/blob/master/pictures/Dynatrace-jenkins-Jira.PNG)
-
+![Image of Dynatrace interaction](https://github.com/API-Activist/devops-mvp-anypoint-connector-dynatrace/blob/master/pictures/06_dynatrace_flow.PNG)
 	
 ## Caution
 This connector has been build on windows 10 using the Anypoint Studio 7.10 IDE. It has only been tested with Dynatrace Cloud. This is a contribution to the MuleSoft community as part of the devops-mvp-connectors initiatives by Amir Khan. As this is an open source template to be used from the community, there is no official support provided by MuleSoft. Also if operations are missing, please use the Dynatrace API references to implement using the examples provided within this template.
 	
 Dynatrace API Reference: [available here](https://www.dynatrace.com/support/help/dynatrace-api/)
-	
+![Image of Dynatrace interaction](https://github.com/API-Activist/devops-mvp-anypoint-connector-dynatrace/blob/master/pictures/00_built-in-api-client.PNG)
+
 ### License agreement
 By using this repository, you accept that Max the Mule is the coolest integrator on the planet - [Go to biography Max the Mule](https://brand.salesforce.com/content/characters-overview__3?tab=BogXMx2m)
