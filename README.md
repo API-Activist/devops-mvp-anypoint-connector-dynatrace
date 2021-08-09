@@ -125,7 +125,7 @@ By default it is a json sent back as string. Therefor it is required to set the 
 ![Image of Dynatrace interaction](https://github.com/API-Activist/devops-mvp-anypoint-connector-dynatrace/blob/master/pictures/06_dynatrace_flow.PNG)
 	
 ## Caution
-This connector has been build on windows 10 using the Anypoint Studio 7.10 IDE. It has only been tested with Dynatrace Cloud. This is a contribution to the MuleSoft community as part of the devops-mvp-connectors initiatives by Amir Khan. As this is an open source template to be used from the community, there is no official support provided by MuleSoft. Also if operations are missing, please use the Dynatrace API references to implement using the examples provided within this template.
+This connector has been build on windows 10 using the Anypoint Studio 7.10 IDE. It has only been tested with Dynatrace Cloud. This is a contribution to the MuleSoft community as part of the devops-mvp-connectors initiatives by [Amir Khan](https://www.linkedin.com/in/amir-khan-ak). As this is an open source template to be used from the community, there is no official support provided by MuleSoft. Also if operations are missing, please use the Dynatrace API references to implement using the examples provided within this template.
 	
 Dynatrace API Reference: [available here](https://www.dynatrace.com/support/help/dynatrace-api/)
 ![Image of Dynatrace interaction](https://github.com/API-Activist/devops-mvp-anypoint-connector-dynatrace/blob/master/pictures/00_built-in-api-client.PNG)
